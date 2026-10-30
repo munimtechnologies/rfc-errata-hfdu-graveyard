@@ -1,0 +1,24 @@
+RFC errata 'Held for Document Update' graveyard -- MV2 of Munim, Inc. (AI-produced)
+Snapshot: 2026.79  errata: 8116  RFC index entries: 9851
+Status histogram: Verified=3758, Held for Document Update=2431, Rejected=1167, Reported=760
+
+HFDU errata: 2431  distinct RFCs with HFDU: 1113  (in index: 1113)
+HFDU RFCs ever revised (updated/obsoleted): 455 / 1113 = 40.9%
+submit_date parsed: 2430  missing: 1
+
+HFDU-RFC revision rate by publication status:
+  Standards Track        n=758  revised=364  rate=0.480
+  Informational          n=242  revised=52   rate=0.215
+  Experimental           n=43   revised=16   rate=0.372
+  Best Current Practice  n=51   revised=17   rate=0.333
+  Historic               n=4    revised=0    rate=0.000
+  Unknown                n=15   revised=6    rate=0.400
+
+HFDU resolution survival (time from erratum to subsequent revision):
+  gradable=True events=1112 resolved=389  S(2)=0.8909 S(5)=0.7689 S(10)=0.6602  median=not reached
+
+PREDICTIONS:
+  P1 HFDU-revised fraction > 40%: True (40.9% vs 40% baseline)
+  P2 Std-Track resolved > Informational: True (0.4802 vs 0.2149)
+  P3 KM median not reached (most HFDU never folded in): True
+  P4 Verified most common & > HFDU: True (Verified; verified=3758 hfdu=2431)

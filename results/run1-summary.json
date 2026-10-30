@@ -1,0 +1,106 @@
+{
+  "snapshot_frac_year": 2026.792,
+  "n_errata_total": 8116,
+  "errata_first_record_keys": [
+    "correct_text",
+    "doc-id",
+    "errata_id",
+    "errata_status_code",
+    "errata_type_code",
+    "notes",
+    "orig_text",
+    "section",
+    "submit_date",
+    "submitter_name",
+    "update_date",
+    "verifier_id",
+    "verifier_name"
+  ],
+  "errata_status_histogram": {
+    "Verified": 3758,
+    "Held for Document Update": 2431,
+    "Rejected": 1167,
+    "Reported": 760
+  },
+  "errata_type_histogram": {
+    "Editorial": 3702,
+    "Technical": 4414
+  },
+  "n_rfc_index_entries": 9851,
+  "hfdu": {
+    "n_hfdu_errata": 2431,
+    "n_distinct_rfcs_with_hfdu": 1113,
+    "n_hfdu_rfcs_in_index": 1113,
+    "n_hfdu_rfcs_revised": 455,
+    "revised_fraction": 0.4088,
+    "submit_date_parsed": 2430,
+    "submit_date_missing": 1
+  },
+  "hfdu_revision_by_status": {
+    "Standards Track": {
+      "n": 758,
+      "revised": 364,
+      "rate": 0.48021108179419525
+    },
+    "Informational": {
+      "n": 242,
+      "revised": 52,
+      "rate": 0.21487603305785125
+    },
+    "Experimental": {
+      "n": 43,
+      "revised": 16,
+      "rate": 0.37209302325581395
+    },
+    "Best Current Practice": {
+      "n": 51,
+      "revised": 17,
+      "rate": 0.3333333333333333
+    },
+    "Historic": {
+      "n": 4,
+      "revised": 0,
+      "rate": 0.0
+    },
+    "Unknown": {
+      "n": 15,
+      "revised": 6,
+      "rate": 0.4
+    }
+  },
+  "hfdu_resolution_km": {
+    "gradable": true,
+    "n_events_total": 1112,
+    "n_resolved": 389,
+    "median_years_to_resolution_reached": null,
+    "survival_at_2y": 0.8909,
+    "survival_at_5y": 0.7689,
+    "survival_at_10y": 0.6602,
+    "final_survival": 0.5872,
+    "time_to_resolution_years_median": 3.75
+  },
+  "predictions": {
+    "P1_hfdu_revised_gt_40pct": {
+      "result": true,
+      "revised_fraction": 0.4088,
+      "mcquistin_2022_baseline": 0.4
+    },
+    "P2_stdtrack_resolved_gt_informational": {
+      "result": true,
+      "standards_track_rate": 0.4802,
+      "informational_rate": 0.2149
+    },
+    "P3_km_median_not_reached": {
+      "result": true,
+      "gradable": true,
+      "km_median_years": null,
+      "final_survival": 0.5872
+    },
+    "P4_verified_most_common": {
+      "result": true,
+      "most_common_status": "Verified",
+      "n_verified": 3758,
+      "n_hfdu": 2431
+    }
+  }
+}
