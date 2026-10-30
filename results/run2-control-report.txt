@@ -1,0 +1,23 @@
+Does an HFDU RFC erratum predict revision? -- MV2 of Munim, Inc. (AI-produced)
+Snapshot: 2026.79  errata: 8116  RFC index entries: 9851  errata-free RFCs: 7211
+Status histogram: Verified=3758, Held for Document Update=2431, Rejected=1167, Reported=760
+update_date years: 2019=5230, 2020=233, 2021=259, 2022=296, 2023=227, 2024=694, 2025=443, 2026=385
+
+HFDU arm (any revision): {"subjects": 1112, "missing_from_index": 0, "revised_before_t0": 139, "eligible": 973, "matched": 963, "unmatched": 10, "control_records": 63930}
+  all eligible: {"S5": 0.8019, "S10": 0.6883, "F5": 0.1981}
+  matched subjects: {"S5": 0.801, "S10": 0.6872, "F5": 0.199}  controls: {"S5": 0.9159, "S10": 0.86, "F5": 0.0841}  lift F5: 2.368
+Verified-only arm (any revision): {"subjects": 1189, "missing_from_index": 0, "revised_before_t0": 113, "eligible": 1076, "matched": 1071, "unmatched": 5, "control_records": 68780}
+  all eligible: {"S5": 0.8234, "S10": 0.7258, "F5": 0.1766}
+  matched subjects: {"S5": 0.8227, "S10": 0.7262, "F5": 0.1773}  controls: {"S5": 0.9137, "S10": 0.8609, "F5": 0.0863}  lift F5: 2.0539
+HFDU arm (obsoleted only): {"subjects": 1112, "missing_from_index": 0, "revised_before_t0": 21, "eligible": 1091, "matched": 1079, "unmatched": 12, "control_records": 73797}
+  all eligible: {"S5": 0.9319, "S10": 0.8759, "F5": 0.0681}
+  matched subjects: {"S5": 0.9322, "S10": 0.8754, "F5": 0.0678}  controls: {"S5": 0.9652, "S10": 0.9417, "F5": 0.0348}  lift F5: 1.9482
+
+early_2018_to_2021apr: n=1227 hfdu_share=0.3573 reported_share=0.1402 by_type={"Editorial": 0.3923, "Technical": 0.3268} status={"Verified": 472, "Held for Document Update": 377, "Rejected": 206, "Reported": 172}
+late_2021jun_to_2024: n=1123 hfdu_share=0.1817 reported_share=0.1817 by_type={"Editorial": 0.1298, "Technical": 0.2247} status={"Reported": 204, "Verified": 589, "Rejected": 163, "Held for Document Update": 167}
+
+PREDICTIONS:
+  C1_hfdu_revised_more_than_matched_controls: {"result": true, "gradable": true, "F5_hfdu": 0.199, "F5_controls": 0.0841}
+  C2_hfdu_lift_not_above_verified_lift: {"result": false, "gradable": true, "lift_hfdu": 2.368, "lift_verified_only": 2.0539}
+  C3_hfdu_obsoleted_S10_above_0.75: {"result": true, "gradable": true, "S10": 0.8759}
+  C4_hfdu_share_fell_after_2021_statement: {"result": true, "gradable": true, "early_share": 0.3573, "late_share": 0.1817}
